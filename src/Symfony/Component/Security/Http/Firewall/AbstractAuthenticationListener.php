@@ -129,9 +129,9 @@ abstract class AbstractAuthenticationListener implements ListenerInterface
         }
 
         try {
-            if (!$request->hasPreviousSession()) {
+          /*  if (!$request->hasPreviousSession()) {
                 throw new SessionUnavailableException('Your session has timed out, or you have disabled cookies.');
-            }
+            }*/
 
             if (null === $returnValue = $this->attemptAuthentication($request)) {
                 return;
