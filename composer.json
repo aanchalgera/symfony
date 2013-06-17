@@ -44,7 +44,6 @@
         "symfony/propel1-bridge": "self.version",
         "symfony/property-access": "self.version",
         "symfony/routing": "self.version",
-        "symfony/security": "self.version",
         "symfony/security-bundle": "self.version",
         "symfony/serializer": "self.version",
         "symfony/stopwatch": "self.version",
